@@ -15,8 +15,8 @@ const countriesPromise = async():Promise<CountryType[]> =>{
 function App() {
   return (
     <>
-      <h2>World on the go....</h2>
-      <Suspense fallback={<div>Nadir Loading....</div>}>
+      <h2>Country Visited Information</h2>
+      <Suspense fallback={<div>Wait a minutes</div>}>
         <Countries countriesPromise = {countriesPromise()}></Countries>
       </Suspense>
     </>
