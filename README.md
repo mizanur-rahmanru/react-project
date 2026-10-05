@@ -1,32 +1,105 @@
-# React + TypeScript + Vite
+# ⚛️ React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<p align="center">
+  <b>Learning and Practicing Modern React Development</b>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  A React + TypeScript project built with Vite.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  <a href="https://github.com/mizanur-rahmanru/react-project">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 About The Project
 
-## Expanding the Oxlint configuration
+This repository contains my React development practice and learning work.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+The project was created using **React, TypeScript, and Vite** and is being used to practice modern frontend development concepts, component-based architecture, and React fundamentals.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+It serves as a foundation for experimenting with different React features and gradually building more advanced applications.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| ⚛️ React | Building user interfaces |
+| 🔷 TypeScript | Type-safe development |
+| ⚡ Vite | Development and build tool |
+| 🧹 Oxlint | Code quality and linting |
+| 📦 npm | Package management |
+| 🐙 Git & GitHub | Version control |
+
+---
+
+## 🧠 React Concepts Practiced
+
+Throughout this project, I am practicing concepts such as:
+
+- React Components
+- JSX / TSX
+- Props
+- Conditional Rendering
+- Event Handling
+- State Management
+- `useState`
+- `useEffect`
+- API Fetching
+- `async/await`
+- Data Rendering
+- Array State Updates
+- Spread Operator
+- Component Reusability
+- React Hooks
+- Modern JavaScript
+- TypeScript
+- Responsive UI Development
+
+---
+
+## ⚡ Why Vite?
+
+This project uses **Vite** as the development and build tool.
+
+Vite provides:
+
+- ⚡ Fast development server
+- 🔥 Hot Module Replacement (HMR)
+- 📦 Optimized production builds
+- 🛠️ Modern frontend tooling
+
+---
+
+## 📂 Project Structure
+
+```text
+react-project/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── ...
+│
+├── .gitignore
+├── .oxlintrc.json
+├── index.html
+├── package.json
+├── package-lock.json
+│
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+│
+├── vite.config.ts
+└── README.md
